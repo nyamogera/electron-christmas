@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="main.js"></script>
+    <style>
+        html {
+            height: 100%;
+            width: 100%
+        }
+
+        body {
+            margin: 0;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.0);
+        }
+
+        canvas {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<canvas id="myCanvas">
+
+</canvas>
+<script>
+
+    var main = new project.Main();
+
+    loop();
+    function loop() {
+
+        main.update();
+        main.draw();
+
+        window.requestAnimationFrame(loop);
+    }
+</script>
+</body>
+</html>

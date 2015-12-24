@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "out": "main.js",
+    "sourceMap": false
+  },
+  "files": [
+    "src/Main.ts","src/Snow.ts"
+  ]
+}
