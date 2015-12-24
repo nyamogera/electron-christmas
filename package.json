@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "build" :"electron-packager . ElectronChristmas --platform=darwin --arch=x64 --version=0.36.0 --overwrite --out ../"
   },
   "author": "nyamogera",
   "license": "MIT",
