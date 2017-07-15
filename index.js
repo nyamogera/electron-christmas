@@ -3,7 +3,7 @@ var electron = require("electron");
 var app = electron.app;
 var BrowserWindow = electron.BrowserWindow;
 app.on('ready', function () {
-    var Screen = require('screen');
+    var Screen = electron.screen;
     var size = Screen.getPrimaryDisplay().size;
     var mainWindow = new BrowserWindow({
         left: 0,
